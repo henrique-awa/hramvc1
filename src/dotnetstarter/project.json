@@ -28,14 +28,17 @@
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.1"
-    }
+    },
+    "IBM.WatsonDeveloperCloud.LanguageTranslator": "0.1.1-alpha",
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0"
   },
 
     "frameworks": {
         "netcoreapp1.0": {
-            "imports": [
-                "portable-net45+wp80+win8+wpa81+dnxcore50"
-            ]
+          "imports": [
+            "dnxcore50",
+            "portable-net451+win8"
+          ]
         }
     },
 

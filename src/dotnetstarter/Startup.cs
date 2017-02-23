@@ -19,6 +19,7 @@ public class Startup
 	{
 		app.UseDefaultFiles();
 		app.UseStaticFiles();
+        app.UseBrowserLink();
 
         app.UseMvc(routes =>
         {

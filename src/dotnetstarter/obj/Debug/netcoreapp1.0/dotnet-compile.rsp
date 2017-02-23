@@ -14,8 +14,11 @@
 --version:1.0.1.0
 --informational-version:1.0.1
 --target-framework:.NETCoreApp,Version=v1.0
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\IBM.WatsonDeveloperCloud\0.1.1-alpha\lib\netstandard1.6\IBM.WatsonDeveloperCloud.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\IBM.WatsonDeveloperCloud.LanguageTranslator\0.1.1-alpha\lib\netstandard1.6\IBM.WatsonDeveloperCloud.LanguageTranslator.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.ApplicationInsights\2.2.0\lib\netstandard1.5\Microsoft.ApplicationInsights.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\2.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.AspNet.WebApi.Client\5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\System.Net.Http.Formatting.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.1.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.AspNetCore.Authorization\1.1.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.AspNetCore.Cors\1.1.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll
@@ -89,8 +92,11 @@
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.PlatformAbstractions\1.1.0\lib\netstandard1.3\Microsoft.Extensions.PlatformAbstractions.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Primitives\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.WebEncoders\1.1.0\lib\netstandard1.0\Microsoft.Extensions.WebEncoders.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\portable-net45+win8\System.Net.Http.Extensions.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Net.Http\2.2.22\lib\portable-net45+win8\System.Net.Http.Primitives.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Net.Http.Headers\1.1.0\lib\netstandard1.1\Microsoft.Net.Http.Headers.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.VisualBasic\10.0.1\ref\netstandard1.1\Microsoft.VisualBasic.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.VisualStudio.Web.BrowserLink.Loader\14.0.0\lib\netstandard1.5\Microsoft.VisualStudio.Web.BrowserLink.Loader.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Win32.Primitives\4.3.0\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Win32.Registry\4.3.0\ref\netstandard1.3\Microsoft.Win32.Registry.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Newtonsoft.Json\9.0.1\lib\netstandard1.0\Newtonsoft.Json.dll
@@ -171,7 +177,9 @@
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Runtime.InteropServices.RuntimeInformation\4.3.0\ref\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Runtime.Loader\4.3.0\ref\netstandard1.5\System.Runtime.Loader.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Runtime.Numerics\4.3.0\ref\netstandard1.1\System.Runtime.Numerics.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Runtime.Serialization.Json\4.0.1\ref\dotnet5.1\System.Runtime.Serialization.Json.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Runtime.Serialization.Primitives\4.3.0\ref\netstandard1.3\System.Runtime.Serialization.Primitives.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Runtime.Serialization.Xml\4.1.1\ref\netstandard1.3\System.Runtime.Serialization.Xml.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Security.Claims\4.3.0\ref\netstandard1.3\System.Security.Claims.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Security.Cryptography.Algorithms\4.3.0\ref\netstandard1.6\System.Security.Cryptography.Algorithms.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Security.Cryptography.Encoding\4.3.0\ref\netstandard1.3\System.Security.Cryptography.Encoding.dll
@@ -193,6 +201,12 @@
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Threading.Timer\4.3.0\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Xml.ReaderWriter\4.3.0\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Xml.XmlDocument\4.0.1\ref\netstandard1.3\System.Xml.XmlDocument.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\System.Xml.XmlSerializer\4.0.11\ref\netstandard1.3\System.Xml.XmlSerializer.dll
 --resource:"C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\obj\Debug\netcoreapp1.0\dotnetstarterdotnet-compile.deps.json",dotnetstarter.deps.json
 C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Startup.cs
 C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Controllers\HelloWorldController.cs
+C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Controllers\HomeController.cs
+C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Controllers\LanguageTranslatorController.cs
+C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Models\Idioma.cs
+C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Services\Service.cs
