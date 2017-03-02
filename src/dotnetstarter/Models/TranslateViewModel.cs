@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace dotnetstarter.Models
 {
-    public class Idioma
+    public class TranslateViewModel
     {
         public String SelectedLanguage { get; set; }
         public List<SelectListItem> ListaIdiomas { get; set; }

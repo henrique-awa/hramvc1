@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0",
-    "signature": "43912bedc4a8e53a65467302668d387d4cf9fb25"
+    "signature": "b73aceb9e94a4578f0274c4a9bdc8ab43502beec"
   },
   "compilationOptions": {
     "defines": [
@@ -26,7 +26,9 @@
           "Microsoft.Extensions.Configuration.CommandLine": "1.0.0",
           "Microsoft.NETCore.App": "1.0.1",
           "IBM.WatsonDeveloperCloud.LanguageTranslator": "0.1.1-alpha",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0"
+          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
+          "Microsoft.Extensions.Configuration.Json": "1.1.0",
+          "Microsoft.Extensions.Configuration.Binder": "1.0.0"
         },
         "runtime": {
           "dotnetstarter.dll": {}
@@ -99,8 +101,8 @@
         "dependencies": {
           "Microsoft.ApplicationInsights": "2.2.0",
           "Microsoft.AspNetCore.Hosting": "1.0.0",
-          "Microsoft.Extensions.Configuration": "1.0.0",
-          "Microsoft.Extensions.Configuration.Json": "1.0.0",
+          "Microsoft.Extensions.Configuration": "1.1.0",
+          "Microsoft.Extensions.Configuration.Json": "1.1.0",
           "Microsoft.Extensions.DiagnosticAdapter": "1.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
           "NETStandard.Library": "1.6.1",
@@ -251,7 +253,7 @@
           "Microsoft.AspNetCore.Hosting.Server.Abstractions": "1.1.0",
           "Microsoft.AspNetCore.Http": "1.1.0",
           "Microsoft.AspNetCore.Http.Extensions": "1.1.0",
-          "Microsoft.Extensions.Configuration": "1.0.0",
+          "Microsoft.Extensions.Configuration": "1.1.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "1.1.0",
           "Microsoft.Extensions.FileProviders.Physical": "1.1.0",
@@ -888,16 +890,10 @@
           "lib/netstandard1.3/Microsoft.Extensions.CommandLineUtils.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/1.0.0": {
+      "Microsoft.Extensions.Configuration/1.1.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "1.1.0",
-          "System.Collections": "4.3.0",
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.IO": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Threading": "4.3.0"
+          "NETStandard.Library": "1.6.1"
         },
         "runtime": {
           "lib/netstandard1.1/Microsoft.Extensions.Configuration.dll": {}
@@ -918,9 +914,21 @@
           "lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.0",
+          "System.ComponentModel.TypeConverter": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "compile": {
+          "lib/netstandard1.1/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.CommandLine/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0"
+          "Microsoft.Extensions.Configuration": "1.1.0"
         },
         "runtime": {
           "lib/netstandard1.1/Microsoft.Extensions.Configuration.CommandLine.dll": {}
@@ -931,7 +939,7 @@
       },
       "Microsoft.Extensions.Configuration.EnvironmentVariables/1.0.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0"
+          "Microsoft.Extensions.Configuration": "1.1.0"
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
@@ -940,11 +948,12 @@
           "lib/netstandard1.3/Microsoft.Extensions.Configuration.EnvironmentVariables.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.FileExtensions/1.0.0": {
+      "Microsoft.Extensions.Configuration.FileExtensions/1.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0",
+          "Microsoft.Extensions.Configuration": "1.1.0",
           "Microsoft.Extensions.FileProviders.Physical": "1.1.0",
-          "System.AppContext": "4.3.0"
+          "NETStandard.Library": "1.6.1",
+          "System.Threading.Thread": "4.3.0"
         },
         "runtime": {
           "lib/netstandard1.3/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
@@ -953,13 +962,13 @@
           "lib/netstandard1.3/Microsoft.Extensions.Configuration.FileExtensions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Json/1.0.0": {
+      "Microsoft.Extensions.Configuration.Json/1.1.0": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "1.0.0",
-          "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
+          "Microsoft.Extensions.Configuration": "1.1.0",
+          "Microsoft.Extensions.Configuration.FileExtensions": "1.1.0",
+          "NETStandard.Library": "1.6.1",
           "Newtonsoft.Json": "9.0.1",
           "System.Dynamic.Runtime": "4.3.0",
-          "System.IO.FileSystem": "4.3.0",
           "System.Runtime.Serialization.Primitives": "4.3.0"
         },
         "runtime": {
@@ -3848,15 +3857,20 @@
       "serviceable": true,
       "sha512": "sha512-kXJ8+YvEjp1j7ezJ7yvQMLYbRL6QlpBUjRoBfqghoe80yqZ5azYB90lL4iNeyRCznWF+cGm41aaIoFU0aOq7TQ=="
     },
-    "Microsoft.Extensions.Configuration/1.0.0": {
+    "Microsoft.Extensions.Configuration/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hR4yYebruRp6qyFnV3RW4qrnEb0J1LnMmQbj50AUA423V8dMs4E3YAohsyRyGBFnpbJ+KKzieSG/n2A6T0klZQ=="
+      "sha512": "sha512-iqp8UepCsS902j0kPO/d7hrd9PSyK7l84UFlpqdV8QY+/pMUY5k8wlAIuN6mWdW97HI8a8BJyvjhJbJps2GwZw=="
     },
     "Microsoft.Extensions.Configuration.Abstractions/1.1.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ggfk85eY5+Nr90O9wN0ei8YyouHTeLOSj4R7PJAEkAAR1TNCoeErydX2OuFjT/lF6o7Zupwd+DIRifC17XL2VA=="
+    },
+    "Microsoft.Extensions.Configuration.Binder/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kK8QuBcPQtmKJCkC9enc1uMRFa++mPTuVNm2K5jDVXcAYKRBcFSbdEBvIe1JIgA6dEsAQeqjfHfKSaUJ8f5NFQ=="
     },
     "Microsoft.Extensions.Configuration.CommandLine/1.0.0": {
       "type": "package",
@@ -3868,15 +3882,15 @@
       "serviceable": true,
       "sha512": "sha512-A0yqS98VtPNlFkFI7YBlwkAekUHE/9mMeNc+K4RmgTjCrskuk6pX3LGhDU7aD5CPYc9Px7M2To/2u4xDSnRikg=="
     },
-    "Microsoft.Extensions.Configuration.FileExtensions/1.0.0": {
+    "Microsoft.Extensions.Configuration.FileExtensions/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-MO7XtmLiqnpgVTX34uzFPvIS7jPmBUGLN0MP5MsYu6CqYTIs90ULjtrV5TegH5mTqKTXWjZRGXL26R6apTyc4w=="
+      "sha512": "sha512-jZRdMHops4npC8qKFEmqw6QODfA5h50sUYBIyB31DICzYSp+IQyvf5yb1zwW2x1EFuUEMv+aWZi1WDDc7JPdqA=="
     },
-    "Microsoft.Extensions.Configuration.Json/1.0.0": {
+    "Microsoft.Extensions.Configuration.Json/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KRyEOe5/Xi3qyDMdEVh++e2pQRsI6C3wzINVExOcu9lOsFmXK/k4qOf244fyo59rnn6s5xKnIW3WbhxWS1hu2w=="
+      "sha512": "sha512-QmHQbrOoVxXblM2x9NzGPbX3XpQGTCXiO6jZghx4KqUxPfJMS0VgBlgOUnLAz7sJyx3GvhUG6SEX6Xz70dpwDw=="
     },
     "Microsoft.Extensions.DependencyInjection/1.1.0": {
       "type": "package",

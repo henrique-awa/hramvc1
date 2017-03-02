@@ -68,12 +68,13 @@
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Caching.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Caching.Abstractions.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Caching.Memory\1.1.0\lib\netstandard1.3\Microsoft.Extensions.Caching.Memory.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.CommandLineUtils\1.0.0\lib\netstandard1.3\Microsoft.Extensions.CommandLineUtils.dll
---reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration\1.1.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.Binder\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.Binder.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.CommandLine\1.0.0\lib\netstandard1.1\Microsoft.Extensions.Configuration.CommandLine.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.EnvironmentVariables\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
---reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll
---reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.Json\1.0.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.Json.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.FileExtensions\1.1.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.FileExtensions.dll
+--reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.Configuration.Json\1.1.0\lib\netstandard1.3\Microsoft.Extensions.Configuration.Json.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.DependencyInjection\1.1.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.DependencyInjection.Abstractions\1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 --reference:C:\Users\IBM_ADMIN\.nuget\packages\Microsoft.Extensions.DependencyModel\1.1.0\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll
@@ -208,5 +209,6 @@ C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Startup.cs
 C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Controllers\HelloWorldController.cs
 C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Controllers\HomeController.cs
 C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Controllers\LanguageTranslatorController.cs
-C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Models\Idioma.cs
+C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Models\TranslateViewModel.cs
+C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Options\LanguageTranslatorOptions.cs
 C:\Users\IBM_ADMIN\Source\Repos\hramvc1\src\dotnetstarter\Services\Service.cs
