@@ -8,7 +8,11 @@ namespace dotnetstarter.Models
 {
     public class TranslateViewModel
     {
-        public String SelectedLanguage { get; set; }
-        public List<SelectListItem> ListaIdiomas { get; set; }
+        public List<SelectListItem> LanguageList { get; set; }
+        public String SelectedInputLanguage { get; set; }
+        public String SelectedOutputLanguage { get; set; }
+
+        public String InputText { get; set; }
+        public String OutputText { get; set; }
     }
 }

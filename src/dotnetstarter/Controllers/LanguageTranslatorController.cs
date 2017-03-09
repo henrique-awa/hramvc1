@@ -29,7 +29,7 @@ namespace dotnetstarter.Controllers
         {
             Service _service = Service.Instance(Options);
 
-            TranslateViewModel lang = new TranslateViewModel { ListaIdiomas = _service.GetLanguages() };
+            TranslateViewModel lang = new TranslateViewModel { LanguageList = _service.GetLanguages() };
 
             return View(lang);
         }
